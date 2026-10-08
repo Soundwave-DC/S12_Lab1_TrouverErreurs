@@ -22,5 +22,6 @@ namespace Mission.Data
             //Générer des données de départ
              modelBuilder.GenerateData();
         }
+        public DbSet<Produit> Produits { get; set; }
     }
 }
